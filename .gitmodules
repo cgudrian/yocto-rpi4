@@ -1,9 +1,24 @@
 [submodule "sources/meta-raspberrypi"]
 	path = sources/meta-raspberrypi
 	url = https://git.yoctoproject.org/meta-raspberrypi
+	branch = kirkstone
 [submodule "sources/poky"]
 	path = sources/poky
 	url = https://git.yoctoproject.org/poky
+	branch = kirkstone
 [submodule "sources/meta-qt6"]
 	path = sources/meta-qt6
-	url = http://code.qt.io/yocto/meta-qt6.git
+	url = https://code.qt.io/yocto/meta-qt6.git
+	branch = 6.5.2
+[submodule "sources/meta-openembedded"]
+	path = sources/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = kirkstone
+[submodule "sources/meta-boot2qt"]
+	path = sources/meta-boot2qt
+	url = https://code.qt.io/yocto/meta-boot2qt.git
+	branch = kirkstone
+[submodule "sources/meta-mingw"]
+	path = sources/meta-mingw
+	url = https://git.yoctoproject.org/git/meta-mingw
+	branch = kirkstone
