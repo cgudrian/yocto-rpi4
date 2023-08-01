@@ -1,0 +1,9 @@
+[submodule "sources/meta-raspberrypi"]
+	path = sources/meta-raspberrypi
+	url = https://git.yoctoproject.org/meta-raspberrypi
+[submodule "sources/poky"]
+	path = sources/poky
+	url = https://git.yoctoproject.org/poky
+[submodule "sources/meta-qt6"]
+	path = sources/meta-qt6
+	url = http://code.qt.io/yocto/meta-qt6.git
